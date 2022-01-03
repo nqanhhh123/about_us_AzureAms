@@ -1,0 +1,118 @@
+
+.font{
+  font-family: sans-serif;
+  margin-left: 50px;
+  font-size: 40px;
+}
+html{
+  box-sizing: border-box;
+}
+
+/*.img_core{
+  display: block;
+  width: 75px;
+  height: 75px; 
+  margin-left: auto;
+  margin-right: auto;
+}*/
+.underline{
+  -webkit-text-decoration: rgb(0, 0, 0) solid underline;
+  text-decoration: rgb(0, 0, 0) solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+  font-size: 30px;
+
+}
+
+.head{
+  font-size: x-large;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  border-radius: 50%;
+}
+.border{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 25px 25px;
+}
+
+.second_border{
+  margin: 30px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 25px
+}
+.third_border{
+  border-radius: 10px;
+  background-color: rgb(9, 31, 41);
+}
+.container{
+  margin-top: 60px;
+}
+.container{
+  font-size: 48px;
+  color: white;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.member{
+  width: 250px;
+  margin: 5px;
+  background-color: rgb(9, 31, 41);
+  padding: 20px 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.member h2{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.member p{
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.core_img{
+  max-width: 190px;
+  width: 100%;
+  height: 190px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.core_img img{
+  width: 100%;
+  height: 100%;
+}
+.project {
+  margin: 0 auto;
+  text-align: center;
+}
+.card{
+  max-width: 400px;
+  height: fit-content;
+  display: inline-block;
+  border: solid black 1.5px;
+}
+
+.project_img img{
+  width: 100%;
+  height: 100%;
+}

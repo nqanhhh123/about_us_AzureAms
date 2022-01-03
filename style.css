@@ -1,0 +1,89 @@
+
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(36, 33, 33);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-size: 20px;
+}
+  
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.paragraph{
+  margin-left: 70px;
+  margin-right: 50px;
+  font-size: x-large;
+}
+
+  .hover-underline {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+  z-index: 1;
+}
+.hover-underline:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+  
+.hover-underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.icon{
+  margin-left: 30px;
+  height: 60px;
+}
+* {
+  box-sizing: border-box;
+}
+.box{
+  height: fit-content;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.transbox h3 {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(236, 229, 229);
+  margin: auto;
+  font-size: xx-large;
+}
+
+.contact{
+  margin: 0;
+  border: solid 1px black;
+  padding:25px;
+  background-color: rgb(36, 33, 33);
+  color: white;
+}
+.contact img{
+  float: right;
+  overflow: auto;
+}
+
